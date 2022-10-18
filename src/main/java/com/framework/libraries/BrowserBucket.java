@@ -19,10 +19,10 @@ public class BrowserBucket{
 
     public BrowserBucket(){
         String browserName = null;
-        if("null" !=System.getProperty("browser") ){
-            browserName = "CHROME";
+        if("null" != System.getProperty("browser") ){
+            browserName=System.getProperty("browser").toUpperCase();
         } else {
-            System.getProperty("browser").toUpperCase();
+            browserName = "CHROME";
         }
         switch(browserName) {
             case "CHROME":
