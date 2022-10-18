@@ -3,7 +3,10 @@ How To Run Tests?
 - Go to testng.xml, left click and select Run to run full suite.
 - Go to terminal and project root and use maven command: mvn clean verify -DsuiteXmlFile=testng.xml
 
-Disclaimer: As this activity is only for assignment purpose, so no reporting addon is included.
+Disclaimer: 
+- As this activity is only for assignment purpose, so no reporting addon is included.
+- Java 11 is used
+- Executable in IDE and through terminal
 Default Browser: Chrome
 Choose a Browser: mvn clean verify -DsuiteXmlFile=testng.xml -Dbrowser=FIREFOX
 
